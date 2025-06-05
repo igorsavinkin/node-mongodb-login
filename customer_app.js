@@ -12,7 +12,7 @@ const app = express();
 const port = 3000;
 
 // MongoDB connection URI and database name
-const uri =  "mongodb://root:your_password@localhost:27017";
+const uri =  "mongodb://root:23fvs0Vd9T2KWH86GU3bXC4k@172.21.71.194:27017";
 mongoose.connect(uri, {'dbName': 'customerDB'});
 
 // Middleware to parse JSON requests
